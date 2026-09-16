@@ -1,25 +1,31 @@
 v 4
-file . "tb/adder4_tb.vhd" "36f505c2ac764f4f59ea66bdb1f7bbee5dab9dae" "20260911184418.612":
-  entity adder4_tb at 1( 0) + 0 on 29;
-  architecture sim of adder4_tb at 8( 120) + 0 on 30;
-file . ".\rtl\adder4.vhd" "a6300b095efee1e0af116ddbc3da30b27e9c7026" "20260911183806.586":
-  entity adder4 at 1( 0) + 0 on 27;
-  architecture rtl of adder4 at 14( 298) + 0 on 28;
-file . "tb/complex_gate_tb.vhd" "fc94a07996dee7f93705c0bdc00b015fbb0f4a18" "20260911174959.319":
-  entity complex_gate_tb at 1( 0) + 0 on 17;
-  architecture sim of complex_gate_tb at 7( 105) + 0 on 18;
-file . "tb/and_gate_tb.vhd" "8a11534f8e992710b519e10fc794248f0fe3d716" "20260831132415.994":
-  entity and_gate_tb at 1( 0) + 0 on 13;
-  architecture sim of and_gate_tb at 7( 97) + 0 on 14;
-file . "rtl/and_gate.vhd" "0ecc72d7f76b3e9f4d0007760039af8154eada93" "20260831132409.519":
-  entity and_gate at 1( 0) + 0 on 11;
-  architecture rtl of and_gate at 12( 194) + 0 on 12;
-file . "rtl/complex_gate.vhd" "d939fd8555a19a01467e89c21d24abe99fac9d1a" "20260911174923.906":
-  entity complex_gate at 1( 0) + 0 on 15;
-  architecture rtl of complex_gate at 13( 230) + 0 on 16;
-file . ".\rtl\alu4.vhd" "acb552603747e9a1e0fd9e9b2ce50d7deb39170a" "20260911182523.677":
-  entity alu4 at 1( 0) + 0 on 21;
-  architecture rtl of alu4 at 15( 315) + 0 on 22;
+file . "rtl\counter4.vhd" "8cc445c0f0d43a89777165fdc4e4b13330ed2c50" "20260916114641.168":
+  entity counter4 at 1( 0) + 0 on 57;
+  architecture rtl of counter4 at 15( 278) + 0 on 58;
 file . "tb/alu4_tb.vhd" "8684814461b0297765a9da9c6120f25a83c3c512" "20260911182859.968":
   entity alu4_tb at 1( 0) + 0 on 23;
   architecture sim of alu4_tb at 8( 116) + 0 on 24;
+file . ".\rtl\alu4.vhd" "acb552603747e9a1e0fd9e9b2ce50d7deb39170a" "20260911182523.677":
+  entity alu4 at 1( 0) + 0 on 21;
+  architecture rtl of alu4 at 15( 315) + 0 on 22;
+file . "rtl/complex_gate.vhd" "d939fd8555a19a01467e89c21d24abe99fac9d1a" "20260911174923.906":
+  entity complex_gate at 1( 0) + 0 on 15;
+  architecture rtl of complex_gate at 13( 230) + 0 on 16;
+file . "rtl/and_gate.vhd" "0ecc72d7f76b3e9f4d0007760039af8154eada93" "20260831132409.519":
+  entity and_gate at 1( 0) + 0 on 11;
+  architecture rtl of and_gate at 12( 194) + 0 on 12;
+file . "tb/and_gate_tb.vhd" "8a11534f8e992710b519e10fc794248f0fe3d716" "20260831132415.994":
+  entity and_gate_tb at 1( 0) + 0 on 13;
+  architecture sim of and_gate_tb at 7( 97) + 0 on 14;
+file . "tb/complex_gate_tb.vhd" "fc94a07996dee7f93705c0bdc00b015fbb0f4a18" "20260911174959.319":
+  entity complex_gate_tb at 1( 0) + 0 on 17;
+  architecture sim of complex_gate_tb at 7( 105) + 0 on 18;
+file . ".\rtl\adder4.vhd" "a6300b095efee1e0af116ddbc3da30b27e9c7026" "20260911183806.586":
+  entity adder4 at 1( 0) + 0 on 27;
+  architecture rtl of adder4 at 14( 298) + 0 on 28;
+file . "tb/adder4_tb.vhd" "36f505c2ac764f4f59ea66bdb1f7bbee5dab9dae" "20260911184418.612":
+  entity adder4_tb at 1( 0) + 0 on 29;
+  architecture sim of adder4_tb at 8( 120) + 0 on 30;
+file . "tb\counter4_tb.vhd" "05cc2d172f7c4f26bab985634d16570f47e78238" "20260916114641.188":
+  entity counter4_tb at 1( 0) + 0 on 59;
+  architecture sim of counter4_tb at 10( 144) + 0 on 60;
