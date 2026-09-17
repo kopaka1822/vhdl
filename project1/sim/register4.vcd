@@ -1,0 +1,90 @@
+$date
+  Thu Sep 17 10:26:03 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module register4_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var reg 1 # enable $end
+$var reg 4 $ data_in[3:0] $end
+$var reg 4 % data_out[3:0] $end
+$scope module dut $end
+$var reg 1 & clk $end
+$var reg 1 ' reset $end
+$var reg 1 ( enable $end
+$var reg 4 ) data_in[3:0] $end
+$var reg 4 * data_out[3:0] $end
+$var reg 4 + data_internal[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+U#
+bUUUU $
+bUUUU %
+0&
+1'
+U(
+bUUUU )
+bUUUU *
+bUUUU +
+#5000000
+1!
+b0000 %
+1&
+b0000 *
+b0000 +
+#10000000
+0!
+0"
+1#
+b1010 $
+0&
+0'
+1(
+b1010 )
+#15000000
+1!
+b1010 %
+1&
+b1010 *
+b1010 +
+#20000000
+0!
+0#
+b0101 $
+0&
+0(
+b0101 )
+#25000000
+1!
+1&
+#30000000
+0!
+1#
+0&
+1(
+#35000000
+1!
+b0101 %
+1&
+b0101 *
+b0101 +
+#40000000

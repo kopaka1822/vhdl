@@ -1,4 +1,10 @@
 v 4
+file . "tb\traffic_light_tb.vhd" "7513dae2f15d2ba302ac4d44d426976a986c7e62" "20260917084301.156":
+  entity traffic_light_tb at 1( 0) + 0 on 75;
+  architecture sim of traffic_light_tb at 8( 127) + 0 on 76;
+file . "tb\register4_tb.vhd" "7b54d84ca53cf7c6c45d5d6fe0d9adc727513925" "20260917082603.844":
+  entity register4_tb at 1( 0) + 0 on 71;
+  architecture sim of register4_tb at 10( 146) + 0 on 72;
 file . "rtl\counter4.vhd" "8cc445c0f0d43a89777165fdc4e4b13330ed2c50" "20260916114641.168":
   entity counter4 at 1( 0) + 0 on 57;
   architecture rtl of counter4 at 15( 278) + 0 on 58;
@@ -29,3 +35,9 @@ file . "tb/adder4_tb.vhd" "36f505c2ac764f4f59ea66bdb1f7bbee5dab9dae" "2026091118
 file . "tb\counter4_tb.vhd" "05cc2d172f7c4f26bab985634d16570f47e78238" "20260916114641.188":
   entity counter4_tb at 1( 0) + 0 on 59;
   architecture sim of counter4_tb at 10( 144) + 0 on 60;
+file . "rtl\register4.vhd" "5a73ce0c3f9f034bb54938823b5a00427bdc7407" "20260917082603.824":
+  entity register4 at 1( 0) + 0 on 69;
+  architecture rtl of register4 at 15( 332) + 0 on 70;
+file . "rtl\traffic_light.vhd" "3a1149200c0f91238421caa0312dec87449462c3" "20260917084301.139":
+  entity traffic_light at 1( 0) + 0 on 73;
+  architecture rtl of traffic_light at 14( 283) + 0 on 74;
