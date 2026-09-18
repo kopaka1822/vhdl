@@ -1,0 +1,56 @@
+$date
+  Fri Sep 18 15:47:57 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module pixel_types $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module invert_4pixel_tb $end
+$comment pixel_in is not handled $end
+$comment pixel_out is not handled $end
+$scope module dut $end
+$comment pixel_in is not handled $end
+$comment pixel_out is not handled $end
+$scope module inverter_0 $end
+$var reg 8 ! pixel_in[7:0] $end
+$var reg 8 " pixel_out[7:0] $end
+$upscope $end
+$scope module inverter_1 $end
+$var reg 8 # pixel_in[7:0] $end
+$var reg 8 $ pixel_out[7:0] $end
+$upscope $end
+$scope module inverter_2 $end
+$var reg 8 % pixel_in[7:0] $end
+$var reg 8 & pixel_out[7:0] $end
+$upscope $end
+$scope module inverter_3 $end
+$var reg 8 ' pixel_in[7:0] $end
+$var reg 8 ( pixel_out[7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00001010 !
+b11110101 "
+b00010100 #
+b11101011 $
+b00011110 %
+b11100001 &
+b00101000 '
+b11010111 (
+#1000000
