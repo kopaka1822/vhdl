@@ -1,0 +1,48 @@
+$date
+  Sat Sep 19 23:19:47 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module pixel_types $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module process_4pixel_tb $end
+$comment pixel_in is not handled $end
+$comment pixel_out is not handled $end
+$scope module dut $end
+$comment pixel_in is not handled $end
+$comment pixel_out is not handled $end
+$scope module gen_kernels(0) $end
+$scope module kernel $end
+$upscope $end
+$upscope $end
+$scope module gen_kernels(1) $end
+$scope module kernel $end
+$upscope $end
+$upscope $end
+$scope module gen_kernels(2) $end
+$scope module kernel $end
+$upscope $end
+$upscope $end
+$scope module gen_kernels(3) $end
+$scope module kernel $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+#2000000

@@ -3,10 +3,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
+use work.pixel_types.all;
+
 entity invert_pixel is
     port (
-        pixel_in  : in  unsigned(7 downto 0);
-        pixel_out : out unsigned(7 downto 0)
+        pixel_in  : in  pixel;
+        pixel_out : out pixel
     );
 end entity invert_pixel;
 
